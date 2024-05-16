@@ -138,3 +138,18 @@
 #     print(dividendo/divisor)
 
 
+
+
+print('Dame 2 numeros para que te diga cual es mayor')
+num1 = int(input('Dame un numero: '))
+num2 = int(input('Dame otro numero: '))
+
+if num1 > num2:
+    print(f'Numero 1: {num1} es mayor que Numero 2: {num2}')
+elif num2 > num1:
+   print(f'Numero 2: {num2} es mayor que Numero 1: {num1}')
+else:
+    print('No es mayor')
+           
+
+
